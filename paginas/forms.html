@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário KKK</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="">
+        <div>
+            <label for="name_user"><b>Nome: </b></label><!--Label insere um rótulo-->
+            <input type="text" name="name_user" id="name_user" size="100" maxlength="10" minlength="3" placeholder="Digite aqui seu nome"><!--Input Text é um campo de entrada de texto-->
+        </div>
+        <div>
+            <label for="senha"><b>Senha: </b></label>
+            <input type="password" name="senha" id="senha" required size="100" maxlength="10" minlength="3" placeholder="Digite aqui sua senha">
+        </div>
+        <br>
+        <div>
+            <label for=""><b>Hobbies:</b></label>
+            <input type="checkbox" name="hobbie" id="esporte">
+            <label for="">Esportes</label>
+            <input type="checkbox" name="cinema" id="cinema">
+            <label for="cinema">Cinema</label>
+            <input type="checkbox" name="leitura" id="leitura">
+            <label for="leitura">Leitura</label>
+        </div>
+    <br>
+
+        <div>
+            <label for=""><b>Escolha o Tipo</b></label>
+            <input type="radio" name="tipo" id="adulto" checked>
+            <label for="adulto">Adulto</label>
+            <input type="radio" name="tipo" id="adolescente">
+            <label for="adolescente">Adolescente</label>
+            <input type="radio" name="tipo" id="crianca">
+            <label for="crianca">Criança</label>
+        </div>
+        <br>
+        <div>
+            <label for="aquivo"><b>Escolha um arquivo</b></label>
+            <input type="file" name="arquivo" id="arquivo" accept="image/jpg, image/png">
+        </div>
+        <br>
+        <div>
+            <label for="opc"><b>Escolha uma opção</b></label>
+            <select name="opc" id="opc">
+                <option value="">TSI</option>
+                <option value="">TME</option>
+                <option value="">Info(Melhor)</option>
+                <option value="">ADM</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Deixe seu recado"></textarea>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div >
+            <button type="submit"><b>Enviar</b></button>
+            <button type="reset"><b>Apagar</b></button>
+            <!--Botões-->
+            <!--
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            -->
+        </div>
+    </form>
+</body>
+</html>
