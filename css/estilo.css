@@ -1,0 +1,24 @@
+div{
+    background-color: #aadd00;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+    /*Comentario foda*/
+}
+
+div li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2{
+    font-size: 50px;
+}
+
+div p strong a{
+    color: #ffddff;
+}
+/*
+seletor{
+    Propriedade: Valor
+}
+*/  
