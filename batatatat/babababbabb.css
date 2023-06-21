@@ -12,6 +12,7 @@
     left: 16px;
     right: 350px;
     font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .img
@@ -22,4 +23,19 @@
     font-size: 18px;
     width: 2900;
     height: 1740;
+}
+
+.section
+{
+    width: 80%;
+    background-color: cadetblue;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+img
+{
+    position: relative;
+    top: 10000px;
 }
